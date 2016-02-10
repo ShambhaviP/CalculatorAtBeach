@@ -23,7 +23,7 @@ public class PrinterTest {
         Printer printer = new Printer(calculator);
         printer.printOutput();
 
-        Assert.assertEquals("8", outContent.toString());
+        Assert.assertEquals("8.0\n", outContent.toString());
 
     }
 
